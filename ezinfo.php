@@ -13,7 +13,7 @@ class mugocontentclassmanagerInfo
     {
         return array(
             'Name'      => '<a href="https://github.com/se7enxweb/mugocontentclassmanager">Mugo Content Class Manager</a>',
-            'Version'   => '1.1.0',
+            'Version'   => '1.1.1',
             'Author'    => 'Mugo Web and 7x',
             'Copyright' => 'Copyright &copy; 2012 - 2018 <a href="https://www.mugo.ca">Mugo Web</a> and 1998 - ' . date( 'Y' ) . ' 7x',
             'License'   => 'GNU General Public License v2.0',
