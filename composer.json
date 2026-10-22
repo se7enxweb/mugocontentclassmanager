@@ -1,19 +1,41 @@
 {
-    "name": "mugoweb/mugocontentclassmanager",
-    "description": "Extension for viewing eZ Publish content objects grouped by content class",
+    "name": "se7enxweb/mugocontentclassmanager",
+    "description": "Mugo Content Class Manager for Exponential: an administration tab that lists every content class with its number of objects and pages through the objects of each class.",
     "type": "ezpublish-legacy-extension",
+    "keywords": [
+        "exponential",
+        "exponential-legacy",
+        "ezpublish-legacy",
+        "extension",
+        "content class",
+        "content objects",
+        "admin"
+    ],
+    "homepage": "https://github.com/se7enxweb/mugocontentclassmanager",
+    "support": {
+        "issues": "https://github.com/se7enxweb/mugocontentclassmanager/issues",
+        "source": "https://github.com/se7enxweb/mugocontentclassmanager"
+    },
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "Mugo Web",
-            "homepage": "http://www.mugo.ca"
+            "homepage": "https://www.mugo.ca",
+            "role": "Author"
+        },
+        {
+            "name": "7x",
+            "email": "info@se7enx.com",
+            "homepage": "https://se7enx.com",
+            "role": "Maintainer"
         }
     ],
-    "license": "GPL-2.0",
-    "minimum-stability": "stable",
-    "extra": {
-        "ezpublish-legacy-extension-name": "mugocontentclassmanager"
-    },
     "require": {
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "php": ">=8.0",
+        "se7enxweb/exponential-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "mugocontentclassmanager",
+        "installer-name": "mugocontentclassmanager"
     }
 }
