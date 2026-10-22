@@ -7,6 +7,9 @@ Part[ezcontentclassmanagernavigationpart]=contentclassmanager
 Tabs[]=contentclassmanager
 
 [Topmenu_contentclassmanager]
+# Icon - the icon the admin4 design draws before the tab's name: a name of design.ini
+#        [AdminDesignSettings] IconList[] (Bootstrap Icons); older admin designs ignore it.
+Icon=diagram-2
 NavigationPartIdentifier=ezcontentclassmanagernavigationpart
 Name=Objects by content class
 Tooltip=Objects by content class
